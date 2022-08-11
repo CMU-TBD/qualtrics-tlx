@@ -59,7 +59,7 @@ Turn the `onLoad()` function into the following by copy-pasting the code between
     });
 
 This finds the html element that is your question and changes its `id` to `nasa-tlx`. This is necessary because Qualtrics changes question IDs as you add new questions, Auto-number, etc. By always assigning this question the same `id` when it loads, you have a reliable identifier for it.
-Make sure you don’t somehow give any other questions an id of `nasa-tlx` to any other element in your survey. (Not that there’d be any reason to do that.)
+Make sure you don’t somehow give an `id` of `nasa-tlx` to any other element in your survey. (Not that there’d be any reason to do that.)
 
 ## Step 3: Apply Custom CSS to turn the sliders into graded scales.
 
