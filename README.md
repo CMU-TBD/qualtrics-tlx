@@ -4,7 +4,7 @@ Custom css for NASA-TLX in Qualtrics
 
 ## Summary
 
-The NASA-TLX (Task Load Index) is the gold standard subjective (self-report) measure of workload. By default, it is administered as a paper-and-pencil questionnaire. Many researchers have administered it digitally using custom-built survey tools, but this doesn’t work well when you need to include the TLX as part of a larger survey. Many papers also reference giving participants the TLX through Qualtrics, but there is a lack of documentation for how these digital versions are designed to mimic (i.e., look and act the same as) a hard copy of the scale. This document explains how to implement the Rating Sheet part of the TLX in Qualtrics.
+The NASA-TLX (Task Load Index) is the gold standard subjective (self-report) measure of workload. By default, it is administered as a paper-and-pencil questionnaire. Many researchers have administered it digitally using custom-built survey tools, but this doesn’t work well when you need to include the TLX as part of a larger survey. Many papers also reference giving participants the TLX through Qualtrics, but there is a lack of documentation for _how_ these digital versions are designed to mimic (i.e., look and act the same as) a hard copy of the scale. This document explains how to implement the Rating Sheet part of the TLX in Qualtrics.
 
 Description from NASA: https://humansystems.arc.nasa.gov/groups/tlx/index.php
 
