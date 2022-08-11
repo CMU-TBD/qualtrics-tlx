@@ -9,6 +9,10 @@
     top: 15px !important;
 }
 
+#nasa-tlx .statement {
+    padding-bottom: 4px;
+}
+
 #nasa-tlx .slider-container {
     height: 200px;
 }
