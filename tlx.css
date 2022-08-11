@@ -1,0 +1,16 @@
+.track {
+    background-image: url(https://cmu.ca1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_eXVUI48S19vjiqq);
+    background-size: 770px 80px !important;
+    background-repeat: no-repeat;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    height: 80px !important;
+}
+
+.handle {
+top: 15px !important;
+}
+
+.slider-container {
+height: 200px;
+}
