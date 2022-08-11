@@ -37,11 +37,11 @@ How to do this:
 
 At this point, your complete survey question should look like this:
 
-![Six sliders, one for each item, with tixk marks in the middle](/edit-question.png "Question in Edit Survey tab")
+![Six sliders, one for each item, with tick marks in the middle](/edit-question.png "Question in Survey Builder")
 
 And, if you preview it (three dots at the top right of the question box -> Preview question):
 
-![Six sliders, one for each item, with tixk marks in the middle](/preview-question-before-customstyle.png "Question in Edit Survey tab")
+![Four sliders, one for each of the first TLX items, with circular handles in the middle](/preview-question-before-customstyle.png "Question in Preview Question window")
 
 ## Step 2: Target your TLX question with JavaScript.
 
@@ -63,8 +63,30 @@ Make sure you don’t somehow give any other questions an id of `nasa-tlx` to an
 
 ## Step 3: Apply Custom CSS to turn the sliders into graded scales.
 
-Copy the raw content of the [tlx.css](/tlx.css) file in this repo.
+Copy the below css (which can also be found in the [tlx.css](/tlx.css) file in this repo):
 
-Go to the Style tab of your survey’s Look and Feel, and paste the css you copied into the Custom CSS box.
+    #nasa-tlx .track {
+    	background-image: url(https://github.com/sir27/qualtrics-tlx/blob/main/tlx-scale.jpg?raw=true);
+    	background-size: 770px 80px !important;
+    	background-repeat: no-repeat;
+    	height: 80px !important;
+    }
+
+    #nasa-tlx .handle {
+
+    	top: 15px !important;
+    }
+
+    #nasa-tlx .slider-container {
+    	height: 200px;
+    }
+
+Go to the Style tab of your survey’s Look and Feel, and paste it into the Custom CSS box.
 
 Now, when you preview or take the survey, your TLX question should look like this:
+
+![The slider image, but with the graded scales](/qualtrics-tlx-question.png "Tada! NASA-TLX in Qualtrics")
+
+### _Why can't I link to the resources instead of copy-pasting these code snippets?_
+
+It would be great if I could tell you to add a `<script>` and a `<link rel="stylesheet">` to your survey and just point you to the customization files here. But Qualtrics doesn't make this easy! These features seem to exist in the Survey Builder and Look and Feel panels, but they don't work as expected... If I figure it out, I'll update this repo. If you figure it out, please tell me. 🤷‍♀️
