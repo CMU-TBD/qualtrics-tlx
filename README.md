@@ -65,24 +65,24 @@ Make sure you don’t somehow give an `id` of `nasa-tlx` to any other element in
 
 Copy the below css (which can also be found in the [tlx.css](/tlx.css) file in this repo):
 
-   #nasa-tlx .track {
-      background-image: url(https://github.com/CMU-TBD/qualtrics-tlx/blob/main/tlx-scale.jpg?raw=true);
-      background-size: 770px 80px !important;
-      background-repeat: no-repeat;
-      height: 80px !important;
-   }
-   
-   #nasa-tlx .handle {
-      top: 15px !important;
-   }
+    #nasa-tlx .track {
+        background-image: url(https://github.com/CMU-TBD/qualtrics-tlx/blob/main/tlx-scale.jpg?raw=true);
+        background-size: 770px 80px !important;
+        background-repeat: no-repeat;
+        height: 80px !important;
+    }
 
-   #nasa-tlx .statement {
-      padding-bottom: 4px;
-   }
+    #nasa-tlx .handle {
+        top: 15px !important;
+    }
 
-   #nasa-tlx .slider-container {
-      height: 200px;
-   }
+    #nasa-tlx .statement {
+        padding-bottom: 4px;
+    }
+
+    #nasa-tlx .slider-container {
+        height: 200px;
+    }
    
 Go to the Style tab of your survey’s Look and Feel, and paste it into the Custom CSS box.
 
