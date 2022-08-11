@@ -1,4 +1,4 @@
-.track {
+#nasa-tlx .track {
     background-image: url(https://cmu.ca1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_eXVUI48S19vjiqq);
     background-size: 770px 80px !important;
     background-repeat: no-repeat;
@@ -7,10 +7,10 @@
     height: 80px !important;
 }
 
-.handle {
-top: 15px !important;
+#nasa-tlx .handle {
+    top: 15px !important;
 }
 
-.slider-container {
-height: 200px;
+#nasa-tlx .slider-container {
+    height: 200px;
 }
