@@ -59,14 +59,14 @@ Turn the `onLoad()` function into the following by copy-pasting the code between
     });
 
 This finds the html element that is your question and changes its `id` to `nasa-tlx`. This is necessary because Qualtrics changes question IDs as you add new questions, Auto-number, etc. By always assigning this question the same `id` when it loads, you have a reliable identifier for it.
-Make sure you don’t somehow give any other questions an id of `nasa-tlx` to any other element in your survey. (Not that there’d be any reason at all to do that. 😛)
+Make sure you don’t somehow give any other questions an id of `nasa-tlx` to any other element in your survey. (Not that there’d be any reason to do that.)
 
 ## Step 3: Apply Custom CSS to turn the sliders into graded scales.
 
 Copy the below css (which can also be found in the [tlx.css](/tlx.css) file in this repo):
 
     #nasa-tlx .track {
-    	background-image: url(https://github.com/sir27/qualtrics-tlx/blob/main/tlx-scale.jpg?raw=true);
+    	background-image: url(https://github.com/CMU-TBD/qualtrics-tlx/blob/main/tlx-scale.jpg?raw=true);
     	background-size: 770px 80px !important;
     	background-repeat: no-repeat;
     	height: 80px !important;
@@ -87,6 +87,6 @@ Now, when you preview or take the survey, your TLX question should look like thi
 
 ![The slider image, but with the graded scales](/qualtrics-tlx-question.png "Tada! NASA-TLX in Qualtrics")
 
-### _Why can't I link to the resources instead of copy-pasting these code snippets?_
+### _Why do I have to copy-paste the code snippets instead of linking to them in this repo?_
 
-It would be great if I could tell you to add a `<script>` and a `<link rel="stylesheet">` to your survey and just point you to the customization files here. But Qualtrics doesn't make this easy! These features seem to exist in the Survey Builder and Look and Feel panels, but they don't work as expected... If I figure it out, I'll update this repo. If you figure it out, please tell me. 🤷‍♀️
+It would be great if you could Just Add Tags (*jazz hands*) that link to external resources. But Qualtrics doesn't make this easy! These features seem to exist in the Survey Builder and Look and Feel panels, but they don't work as expected... If we figure it out, we'll update this repo. If you figure it out, please tell us. 🤷‍♀️
